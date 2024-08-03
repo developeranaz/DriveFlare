@@ -190,7 +190,7 @@
         const DEFAULT_CLIENT_ID = '000000000-i4a3anlcli9rh8obhu83he2l49g7uuai.apps.googleusercontent.com';
         const DEFAULT_CLIENT_SECRET = 'XXXXXX-kxU1F5CDNQV0jUXXXXXF1';
         const SCOPE = 'https://www.googleapis.com/auth/drive';
-        const REDIRECT_URI = 'https://adomain.com/oauth2callback';  // Replace with your actual redirect URI
+        const REDIRECT_URI = 'https://developeranaz.github.io/DriveFlare/codebuilder/';  // Replace with your actual redirect URI
 
         function getAuthorizeUrl(clientId) {
             return `https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=${clientId}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&scope=${encodeURIComponent(SCOPE)}&access_type=offline&prompt=consent`;
